@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>Static table</title>
+    <title>Managerial decision-making</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
@@ -62,12 +62,16 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
     background-color: white; 
 } 
-
+td:first-of-type {
+    background: var(--darkBlue);
+    color: white;
+    font-weight: 500;
+}
 .high {
 background-color: orange;
 }
 
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
 
 table {
     border: 0;
@@ -109,7 +113,7 @@ table td:before {
 colgroup {
     display: none;
 }
-}
+} */
 
 </style>
   </head>
@@ -117,32 +121,54 @@ colgroup {
 <table>
  <colgroup>
         <col style="width: 20%;">
-        <col style="width: 20%;">
-        <col style="width: 30%;">
-        <col style="width: 30%;">
+        <col style="width: 80%;">
       </colgroup>
-  <thead>
-    <th>titleOne</th>
-    <th>titleTwo</th>
-    <th>titleThree</th>
-    <th>titleFour</th>
-  </thead>
   <tbody>
     <tr>
-        <td data-label="titleOne">
-        Content 1
+        <td data-label="Role">
+The decision-maker
         </td>
-        <td data-label="titleTwo">
-            Content 2
+        <td data-label="Description">
+The focus is on the behavioural process of the decision-maker, including psychological forces to select a preferred action and the propensity to risk avoidance or risk acceptance.
         </td>
-        <td data-label="titleThree">
-            Content 3
+    </tr>
+    <tr>
+        <td data-label="Role">
+The organisation
         </td>
-        <td data-label="titleFour">
-            Content 4
+        <td data-label="Description">
+The locus of where the decision is made, the pursuit of organisational purposes that provide a foundation for assessing the decision. This aspect implies the reciprocal relationship between the organisation and management decisions.
+       </td>
+    </tr>
+    <tr>
+        <td data-label="Role">
+The external environment
+        </td>
+        <td data-label="Description">
+Organisations and managers are part of the more extensive environment system. The external environment includes stakeholders with a vested interest in the outcomes of the managerial decisions.
+       </td>
+    </tr>
+    <tr>
+        <td data-label="Role">
+The outcome
+        </td>
+        <td data-label="Description">
+The results that management expects when the decision is made. The mindset of the managerial decision-makers determines whether they will attempt to maximise the outcome of a given choice.
         </td>
     </tr>
   </tbody>
 </table>
 </body>
 </html>
+
+
+
+
+	
+
+
+
+	
+
+
+	
